@@ -1,0 +1,3 @@
+company_name,company_domain,company_description
+diebold,diebold.com,maker of ATM bank machines and voting machines.
+paccar,paccar.com,maker of trucks and diesel engines.
