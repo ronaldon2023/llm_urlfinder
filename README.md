@@ -1,10 +1,10 @@
 # LLM URL Finder: Resilient Query Generation Tool
 
-The **LLM URL Finder** is a sophisticated Python tool that leverages a local Large Language Model (LLM) to generate, sanitize, and validate search queries for security and due diligence tasks.
+The **LLM URL Finder** is a tool that leverages a local Large Language Model (LLM) to generate, sanitize, and validate search queries for security and due diligence tasks.
 
 ## 🛡️ Product Security Engineering Highlights
 
- itization:** All extracted queries are safely URL-encoded (`quote_plus`) before generating search links, mitigating the risk of injection vulnerabilities in downstream web interactions. |
+ ** All extracted queries are safely URL-encoded (`quote_plus`) before generating search links, mitigating the risk of injection vulnerabilities in downstream web interactions. |
 | **Cross-Validation** | **Data Integrity / Trust but Verify:** Generated queries are validated against the simulated results of three independent search engines (Google, Bing, DuckDuckGo) to reduce reliance on a single source (the LLM). |
 | **Confidence Scoring** | **Risk Prioritization:** Results are assigned a quantitative confidence score (**HIGH 🟢, MEDIUM 🟡, or LOW 🔴**) to help an analyst prioritize manual review tasks. |
 
